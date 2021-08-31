@@ -1,0 +1,81 @@
+body {
+    margin: none;
+    width: 1050px;
+}
+
+#logo {
+    width: auto;
+    height: 50px;
+    margin-top: 50px;
+}
+
+header {
+    background-color: rgb(60, 129, 232);
+    background-image: url(../img/pattern.png);
+    width: 100%;
+    height: 100px;
+}
+
+.senza-margine {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.testo-grigio {
+    color: rgb(157, 157, 157);
+}
+
+#titolo-blu {
+    color: rgb(68, 195, 238);
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+figure {
+    margin-left: 0;
+}
+
+.testo-sottolineato {
+    background:#FFFF00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.intestazione-tabella {
+    background-color: rgb(42, 175, 220);
+    color: white;
+    font-weight: bold;
+}
+
+.tab-sfondo-blu {
+    background-color: rgb(163, 217, 235);
+}
+
+.monitor {
+    height: 200px;
+    width: 270px;
+    font-size: 23px;
+    color: white;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.grafico {
+    height: 200px;
+    width: 270px;
+    font-size: 23px;
+    color: white;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    font-weight: bold;
+    padding: 10px;
+}
