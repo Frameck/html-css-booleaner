@@ -54,25 +54,21 @@ table {
     background-color: rgb(163, 217, 235);
 }
 
-.monitor {
+.card {
     height: 200px;
     width: 270px;
     font-size: 23px;
     color: white;
-    background-image: url(../img/monitor.jpg);
     background-size: cover;
-    margin-bottom: 10px;
     font-weight: bold;
     padding: 10px;
 }
 
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 10px;
+}
+
 .grafico {
-    height: 200px;
-    width: 270px;
-    font-size: 23px;
-    color: white;
     background-image: url(../img/graph.jpg);
-    background-size: cover;
-    font-weight: bold;
-    padding: 10px;
 }
