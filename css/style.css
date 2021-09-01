@@ -11,6 +11,7 @@ body {
 header {
     background-color: rgb(60, 129, 232);
     background-image: url(../img/pattern.png);
+    background-size: contain;
     width: 100%;
     height: 100px;
 }
@@ -24,8 +25,9 @@ header {
     color: rgb(157, 157, 157);
 }
 
-#titolo-blu {
+a {
     color: rgb(68, 195, 238);
+    text-decoration: none;
 }
 
 h1 {
@@ -35,10 +37,6 @@ h1 {
 
 figure {
     margin-left: 0;
-}
-
-.testo-sottolineato {
-    background:#FFFF00;
 }
 
 table {
